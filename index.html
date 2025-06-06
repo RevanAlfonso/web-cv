@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Revan Junior W.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #8B7355 0%, #A0937D 100%);
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .profile-shadow {
+            box-shadow: 0 8px 32px rgba(139, 115, 85, 0.3);
+        }
+        
+        .section-divider {
+            background: linear-gradient(90deg, transparent, #8B7355, transparent);
+            height: 1px;
+        }
+        
+        .contact-item {
+            transition: all 0.2s ease;
+        }
+        
+        .contact-item:hover {
+            background-color: #F5F5F4;
+            transform: translateX(4px);
+        }
+        
+        .skill-tag {
+            transition: all 0.2s ease;
+        }
+        
+        .skill-tag:hover {
+            background-color: #8B7355;
+            color: white;
+        }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-800">
+    <!-- Header dengan gradient -->
+    <header class="gradient-bg text-white py-12">
+        <div class="container mx-auto px-6 text-center">
+            <div class="mb-6">
+                <!-- Placeholder foto profil -->
+                <div class="w-32 h-32 bg-white/20 rounded-full mx-auto mb-4 flex items-center justify-center profile-shadow">
+                    <svg class="w-16 h-16 text-white/80" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                    </svg>
+                </div>
+                <h1 class="text-4xl font-bold mb-2">Revan Junior W.</h1>
+                <p class="text-xl font-light opacity-90">SMK Rekayasa Perangkat Lunak (RPL)</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12 max-w-4xl">
+        
+        <!-- Kontak -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-semibold text-stone-700 mb-6 flex items-center">
+                <span class="mr-3">📞</span> Kontak
+            </h2>
+            <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div class="contact-item p-3 rounded-lg">
+                        <strong>No HP:</strong> +62 822 6988 2378
+                    </div>
+                    <div class="contact-item p-3 rounded-lg">
+                        <strong>Email:</strong> revanjuniorw@gmail.com
+                    </div>
+                    <div class="contact-item p-3 rounded-lg">
+                        <strong>Portfolio:</strong> 
+                        <a href="https://linktr.ee/repanyap" class="text-stone-600 hover:text-stone-800 underline" target="_blank">linktr.ee/repanyap</a>
+                    </div>
+                    <div class="contact-item p-3 rounded-lg">
+                        <strong>Alamat:</strong> Jl. Bajak V No 78, Kec Medan Amplas, Kel Harjosari II
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tentang Saya -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-semibold text-stone-700 mb-6 flex items-center">
+                <span class="mr-3">🧠</span> Tentang Saya
+            </h2>
+            <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
+                <p class="text-stone-600 leading-relaxed">
+                    Saya adalah siswa SMK jurusan Rekayasa Perangkat Lunak yang fokus pada pengembangan web dan memiliki ketertarikan mempelajari internet of things (IoT). Saya memiliki semangat belajar tinggi, terbiasa bekerja dalam tim, dan siap beradaptasi di lingkungan kerja profesional.
+                </p>
+            </div>
+        </section>
+
+        <!-- Pendidikan -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-semibold text-stone-700 mb-6 flex items-center">
+                <span class="mr-3">🎓</span> Pendidikan
+            </h2>
+            <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
+                <div class="border-l-4 border-stone-400 pl-6">
+                    <h3 class="text-xl font-semibold text-stone-700">SMK Multi Karya Medan</h3>
+                    <p class="text-stone-500 mb-2">2022 – Sekarang</p>
+                    <p class="text-stone-600 mb-3">Rekayasa Perangkat Lunak</p>
+                    <div class="bg-stone-100 rounded-lg p-3">
+                        <span class="text-sm font-medium text-stone-700">🏆 Juara 3 UI/UX Design Web – Porsenik MK 2024</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pengalaman Kerja -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-semibold text-stone-700 mb-6 flex items-center">
+                <span class="mr-3">💼</span> Pengalaman Kerja (PKL)
+            </h2>
+            <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
+                <div class="border-l-4 border-stone-400 pl-6">
+                    <h3 class="text-xl font-semibold text-stone-700">PT. Naira Mitralogistics Indonesia</h3>
+                    <p class="text-stone-500 mb-2">Jan 2025 – Apr 2025 | Web Developer</p>
+                    <ul class="text-stone-600 space-y-2">
+                        <li class="flex items-start">
+                            <span class="mr-2 mt-1">•</span>
+                            Membuat fitur cek tarif pengiriman menggunakan PHP dan Laravel
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-2 mt-1">•</span>
+                            Mendesain ulang antarmuka web agar lebih modern dan mobile-friendly
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-2 mt-1">•</span>
+                            Mengembangkan sistem login, register, dan pemesanan menggunakan MySQL
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-2 mt-1">•</span>
+                            Membuat form kampanye landing page
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-2 mt-1">•</span>
+                            Mengelola halaman blog perusahaan
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-2 mt-1">•</span>
+                            Menganalisis halaman website dengan zero traffic menggunakan tools sederhana
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kemampuan -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-semibold text-stone-700 mb-6 flex items-center">
+                <span class="mr-3">🛠️</span> Kemampuan
+            </h2>
+            <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
+                <div class="flex flex-wrap gap-3">
+                    <span class="skill-tag bg-stone-100 text-stone-700 px-4 py-2 rounded-full font-medium">Pemrograman</span>
+                    <span class="skill-tag bg-stone-100 text-stone-700 px-4 py-2 rounded-full font-medium">UI/UX Design</span>
+                    <span class="skill-tag bg-stone-100 text-stone-700 px-4 py-2 rounded-full font-medium">Git & GitHub</span>
+                    <span class="skill-tag bg-stone-100 text-stone-700 px-4 py-2 rounded-full font-medium">WordPress</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hobi -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-semibold text-stone-700 mb-6 flex items-center">
+                <span class="mr-3">🎯</span> Hobi Saya
+            </h2>
+            <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
+                <div class="grid md:grid-cols-3 gap-4">
+                    <div class="text-center p-4 bg-stone-50 rounded-lg">
+                        <div class="text-2xl mb-2">💻</div>
+                        <p class="text-stone-600">Belajar ngoding dan mencoba hal baru</p>
+                    </div>
+                    <div class="text-center p-4 bg-stone-50 rounded-lg">
+                        <div class="text-2xl mb-2">📚</div>
+                        <p class="text-stone-600">Membaca buku</p>
+                    </div>
+                    <div class="text-center p-4 bg-stone-50 rounded-lg">
+                        <div class="text-2xl mb-2">🎵</div>
+                        <p class="text-stone-600">Mendengar musik</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-stone-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 Revan Junior W. - Rekayasa Perangkat Lunak</p>
+        </div>
+    </footer>
+</body>
+</html>
